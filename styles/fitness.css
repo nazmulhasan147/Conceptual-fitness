@@ -1,0 +1,114 @@
+/*Universal Styles*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*Shared Styles*/
+.My-btn{
+    background-color: rgba(230, 83, 60, 1);
+    padding:6px 14px 6px 14px ;
+    border-radius: 39px;
+    margin-right: 1px;
+    border: 3px solid  rgba(230, 83, 60, 1);
+}
+.join-now{
+    padding: 16px 45px 16px 45px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-right: 5px;
+    
+
+}
+
+
+
+
+/*Navbar Styles*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.navbar h5{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: rgba(230, 83, 60, 1);
+    font-style: italic;
+}
+.navbar-last{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.navbar-last li{
+    list-style: none;
+    padding: 10px 20px 10px 2px;
+    
+}
+.navbar-last li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.nav-menu{
+    border:  1px solid gray;
+    border-radius: 39px;
+}
+
+/*Banner Section Style*/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    gap: 150px;
+    margin-bottom: 100px;
+}
+
+.banner-right h2{
+    color: rgba(255, 255, 255, 1);
+    font-size: 4.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 25px;
+}
+.banner-right p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.btn{
+      padding: 16px 45px 16px 45px;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border-radius: 46px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
